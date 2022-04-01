@@ -1,0 +1,175 @@
+/* common */
+html{
+    font-size: 10px;
+}
+img {
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+
+/* Text */
+.ms_title_text_dark,
+.ms_title_text {
+    font-size: 4.4rem;
+    margin: 1.5rem 0rem;
+    color: white;
+}
+
+.ms_title_text_dark {
+    color: black;
+}
+.ms_subtitle_text_dark {
+    color: #8f8f8f;
+}
+
+.ms_subtitle_text_dark,
+.ms_subtitle_text {
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+
+/* Buttons */
+.ms_btn_red,
+.ms_btn_black,
+.ms_btn_blue
+{
+    font-size: 1.5rem;
+    background-color: #363636;
+    border: 1px solid #363636;
+    padding: 0.8rem 1rem;
+    color: white;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.ms_btn_red {
+    color: white;
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+}
+
+.ms_btn_blue {
+    background-color: #2d64e6;
+    color: white;
+    border: 1px solid #2d64e6;
+}
+
+
+/* Logo */
+.ms_logo {
+    background-color: black;
+    text-align: end;
+}
+
+.ms_logo img {
+    padding: 1rem;
+    width: 8rem;
+} 
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+
+
+/* Navigation bar */
+.ms_nav {
+    line-height: 5.5rem;
+    height: 5.5rem;
+}
+
+.ms_nav img {
+    width: 6.5rem;
+}
+
+#ms_nav_menu {
+    color: #737373;
+    font-size: 3.2rem;
+    border: 1px solid #e5e5e5;
+    padding: 0rem 1.5rem;
+    border-radius: 5px;
+}
+.ms_nav_menu_dx ul,
+.ms_nav_menu_sx ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ms_nav_menu_dx li,
+.ms_nav_menu_sx li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+.ms_nav_menu_dx a,
+.ms_nav_menu_sx a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+.ms_nav_menu_dx li img,
+.ms_nav_menu_sx li img{
+    width: 10px;
+}
+
+
+/* Main */
+/* Section 1 */
+
+#ms_sec1 {
+    height: 675px;
+    margin-top: 100px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms_logo_returnal {
+    padding-top: 15rem;
+}
+
+.ms_logo_returnal img {
+    width: 60%;
+
+}
+
+/* Section 2 */
+#ms_sec2 {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.ms_img_game_container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Section 3 */
+#ms_blue_text {
+    text-align: center;
+    margin-top: 10rem;
+    color: #1e82d4;
+}
+
+/* Section 4 */
+#ms_sec4 {
+    padding-bottom: 6.5rem;
+    background-position: center;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+.ms_logo_it_takes_two {
+    padding-top: 8rem;
+}
+
+.ms_logo_it_takes_two img {
+    width: 70%;
+}
