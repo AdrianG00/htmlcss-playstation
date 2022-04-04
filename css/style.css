@@ -21,15 +21,15 @@ ul{
 .ms_title_text_dark {
     color: black;
 }
-.ms_subtitle_text_dark {
-    color: #8f8f8f;
-}
 
 .ms_subtitle_text_dark,
 .ms_subtitle_text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 500;
+}
+.ms_subtitle_text_dark {
+    color: #8f8f8f;
 }
 
 
@@ -172,4 +172,39 @@ header {
 
 .ms_logo_it_takes_two img {
     width: 70%;
+}
+
+/* Section 5 */
+#ms_sec5 {
+    background-color: #1f1f1f;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+#ms_new_release {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+#ms_new_release_sub {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+}
+
+.ms_p_sec5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.ms_img_sec5 img {
+    border-radius: 10px;
+}
+
+/* Section 6 */
+#ms_sec6 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
