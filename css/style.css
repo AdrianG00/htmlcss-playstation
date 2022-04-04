@@ -9,7 +9,6 @@ ul{
     list-style: none;
 }
 
-
 /* Text */
 .ms_title_text_dark,
 .ms_title_text {
@@ -36,7 +35,9 @@ ul{
 /* Buttons */
 .ms_btn_red,
 .ms_btn_black,
-.ms_btn_blue
+.ms_btn_blue,
+.ms_btn_light,
+.ms_btn_white
 {
     font-size: 1.5rem;
     background-color: #363636;
@@ -59,6 +60,20 @@ ul{
     border: 1px solid #2d64e6;
 }
 
+.ms_btn_light {
+    color: #3167e6;
+    font-weight: 700;
+    background-color: #d9dadc;
+    border: none;
+}
+
+.ms_btn_white {
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+}
+
 
 /* Logo */
 .ms_logo {
@@ -73,6 +88,7 @@ ul{
 
 /* Header */
 header {
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
@@ -208,3 +224,48 @@ header {
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
+
+/* Section 7 */
+#ms_sec7 {
+    font-size: 1.5rem;
+    margin: 7rem 0;
+    background-color: #bebcbb;
+}
+
+/* Section 8 */
+#ms_sec8 {
+    margin: 5rem 0;
+}
+
+
+/* Section 9 */
+#ms_sec9 {
+    font-size: 1.5rem;
+    margin: 5rem 0;
+    background-color: #161c3b;
+}
+
+/* Sec 7/9 */
+.ms_now_card,
+.ms_plus_card {
+    margin: 1rem 0;
+}
+
+.ms_psnow_card img,
+.ms_psplus_card img {
+    width: 60%;
+}
+
+.ms_pd {
+    padding: 1rem 0;
+}
+.p-rel{
+    position: relative;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
